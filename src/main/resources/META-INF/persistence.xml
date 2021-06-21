@@ -15,8 +15,8 @@
     <class>HelixLab.Szoftverfejlesztes.Model.AutoTipusAdatok</class>
     <class>HelixLab.Szoftverfejlesztes.Model.Elhelyezkedes</class>
     <properties>
-      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/online_foglalodb"/>
-      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.url" value=""/>
+      <property name="javax.persistence.jdbc.user" value=""/>
       <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
       <property name="javax.persistence.jdbc.password" value=""/>
     </properties>
