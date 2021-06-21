@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="HelixLab_Szoftverfejlesztes_jar_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>HelixLab.Szoftverfejlesztes.Model.EtteremFoglalas</class>
+    <class>HelixLab.Szoftverfejlesztes.Model.EtteremHirdetes</class>
+    <class>HelixLab.Szoftverfejlesztes.Model.AutoBerles</class>
+    <class>HelixLab.Szoftverfejlesztes.Model.Felhasznalo</class>
+    <class>HelixLab.Szoftverfejlesztes.Model.Foglalas</class>
+    <class>HelixLab.Szoftverfejlesztes.Model.LakasBerles</class>
+    <class>HelixLab.Szoftverfejlesztes.Model.AutoMuszakiAdatok</class>
+    <class>HelixLab.Szoftverfejlesztes.Model.Elerhetosegek</class>
+    <class>HelixLab.Szoftverfejlesztes.Model.LakasHirdetes</class>
+    <class>HelixLab.Szoftverfejlesztes.Model.AutoHirdetes</class>
+    <class>HelixLab.Szoftverfejlesztes.Model.AutoTipusAdatok</class>
+    <class>HelixLab.Szoftverfejlesztes.Model.Elhelyezkedes</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/online_foglalodb"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>
